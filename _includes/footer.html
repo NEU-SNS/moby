@@ -6,6 +6,7 @@
     <div class="footer-col-wrapper">
       <div class="footer-col">
       {%- if site.author %}
+        For questions please contact
         <ul class="contact-list">
           {% if site.author.name -%}
             <li class="p-name">{{ site.author.name | escape }}</li>
@@ -15,9 +16,6 @@
           {%- endif %}
         </ul>
       {%- endif %}
-      </div>
-      <div class="footer-col">
-        <p>{{ site.description | escape }}</p>
       </div>
     </div>
 

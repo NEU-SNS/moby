@@ -43,7 +43,7 @@ minima:
       name: Moby PETS 2022
       link: https://petsymposium.org/2022/files/papers/issue3/popets-2022-0071.pdf
     client:
-      name: Moby PETS 2022
+      name: Moby Client
       link: https://github.com/amoghbl1/moby_android
     simulator:
       name: Moby Simulator
