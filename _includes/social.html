@@ -18,7 +18,7 @@
   {%- if social.keybase -%}<li><a rel="me" href="https://keybase.io/{{ social.keybase | cgi_escape | escape }}" target="_blank" title="{{ social.keybase | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#keybase' | relative_url }}"></use></svg></a></li>{%- endif -%}
   {%- if social.microdotblog -%}<li><a rel="me" href="https://micro.blog/{{ social.microdotblog | cgi_escape | escape }}" target="_blank" title="{{ social.microdotblog | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#microdotblog' | relative_url }}"></use></svg></a></li>{%- endif -%}
   {%- if social.devto -%}<li><a href="https://dev.to/{{ social.devto | cgi_escape | escape }}" target="_blank" title="{{ social.devto | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#devto' | relative_url }}"></use></svg></a></li>{%- endif -%}
-  {%- if social.paper -%}<li><a href="{{ social.paper.link | cgi_escape | escape }}" target="_blank" title="{{ social.paper.name | escape }}">Paper</a></li>{%- endif -%}
-  {%- if social.client -%}<li><a href="{{ social.client.link | cgi_escape | escape }}" target="_blank" title="{{ social.client.name | escape }}">Client Code</a></li>{%- endif -%}
-  {%- if social.simulator -%}<li><a href="{{ social.simulator.link | cgi_escape | escape }}" target="_blank" title="{{ social.simulator.name | escape }}">Simulator Code</a></li>{%- endif -%}
+  {%- if social.paper -%}<li><a href="{{ social.paper.link }}" target="_blank" title="{{ social.paper.name | escape }}">Paper</a></li>{%- endif -%}
+  {%- if social.client -%}<li><a href="{{ social.client.link }}" target="_blank" title="{{ social.client.name | escape }}">Client Code</a></li>{%- endif -%}
+  {%- if social.simulator -%}<li><a href="{{ social.simulator.link }}" target="_blank" title="{{ social.simulator.name | escape }}">Simulator Code</a></li>{%- endif -%}
 </ul>
