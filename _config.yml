@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -20,12 +20,13 @@
 
 title: "Moby: A Blackout-resistant Anonymity Network for Mobile Devices"
 email: amoghbl1@ccs.neu.edu
+author:
+  name: Amogh Pradeep
+  email: amoghbl1@ccs.neu.edu
 description: >- # this means to ignore newlines until "baseurl:"
   "Moby provides anonymous communcation capabilities for users in a region in times of blackouts."
 baseurl: "/moby" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
 #theme: "minima"
@@ -36,6 +37,17 @@ remote_theme: jekyll/minima
 plugins:
   - jekyll-remote-theme
 
+minima:
+  social_links:
+    paper:
+      name: Moby PETS 2022
+      link: https://petsymposium.org/2022/files/papers/issue3/popets-2022-0071.pdf
+    client:
+      name: Moby PETS 2022
+      link: https://github.com/amoghbl1/moby_android
+    simulator:
+      name: Moby Simulator
+      link: https://github.com/00h-i-r-a00/moby_simulator
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
