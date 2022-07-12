@@ -22,7 +22,7 @@ title: "Moby: A Blackout-resistant Anonymity Network for Mobile Devices"
 email: amoghbl1@ccs.neu.edu
 description: >- # this means to ignore newlines until "baseurl:"
   "Moby provides anonymous communcation capabilities for users in a region in times of blackouts."
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/moby" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
