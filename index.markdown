@@ -45,8 +45,6 @@ The CDR data is as follows.
 
 Using this, we simulate Moby and multiple attacks on its Ad-Hoc network. The [code](https://github.com/00h-i-r-a00/moby_simulator) used to process and work on CDR data can be found on GitHub.
 
-This data was approved by Northeastern's [IRB](https://research.northeastern.edu/hsrp/).
-
 ---
 
 This work was supported by the National Science Foundation (Grants: SaTC-1618955 and ProperData SaTC-1955227).
