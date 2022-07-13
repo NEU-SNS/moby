@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Moby: A Blackout-resistant Anonymity Network for Mobile Devices"
+title: "Moby"
 email: amoghbl1@ccs.neu.edu
 author:
   name: Amogh Pradeep

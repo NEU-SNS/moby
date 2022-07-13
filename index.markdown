@@ -8,7 +8,7 @@ layout: home
 Paper published at [PETS 2022](https://petsymposium.org/2022/files/papers/issue3/popets-2022-0071.pdf).
 
 Moby: A Blackout-resistant Anonymity Network for Mobile Devices
-* Amogh Pradeep (Northeastern University), Hira Javaid (Northeastern University), Ryan Williams (Northeastern University), Antoine Rault (EPFL), David Choffnes (Northeastern University), Stevens Le Blond (EPFL), and Bryan Ford (EPFL) *
+*Amogh Pradeep (Northeastern University), Hira Javaid (Northeastern University), Ryan Williams (Northeastern University), Antoine Rault (EPFL), David Choffnes (Northeastern University), Stevens Le Blond (EPFL), and Bryan Ford (EPFL)*
 
 ### Code
 
