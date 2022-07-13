@@ -9,7 +9,7 @@ Moby: A Blackout-resistant Anonymity Network for Mobile Devices [PETS 2022](http
 
 *Amogh Pradeep (Northeastern University), Hira Javaid (Northeastern University), Ryan Williams (Northeastern University), Antoine Rault (EPFL), David Choffnes (Northeastern University), Stevens Le Blond (EPFL), and Bryan Ford (EPFL)*
 
-Internet blackouts are challenging environments for anonymity and censorship resistance.
+**Abstract:** Internet blackouts are challenging environments for anonymity and censorship resistance.
 Existing popular anonymity networks (e.g., Freenet, I2P, Tor) rely on Internet connectivity to function, making them impracticable during such blackouts.
 In such a setting, mobile ad-hoc networks can provide connectivity, but prior communication protocols for ad-hoc networks are not designed for anonymity and attack resilience.
 We address this need by designing, implementing, and evaluating Moby, a blackout-resistant anonymity network for mobile devices.
@@ -19,6 +19,8 @@ During periods of Internet connectivity, Moby functions as a regular messaging a
 Moby incorporates a model of trust based on users’ contact lists, and a trust establishment protocol that mitigates flooding attacks.
 We perform an empirically informed simulation-based study based on cellphone traces of 268,596 users over the span of a week for a large cellular provider to determine Moby’s feasibility and present our findings.
 Last, we implement and evaluate the Moby client as an Android app.
+
+---
 
 ## Code
 
