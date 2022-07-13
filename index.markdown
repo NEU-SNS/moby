@@ -20,7 +20,7 @@ It is based on the Signal application and extends it to enable P2P communication
 
 Client [code](https://github.com/amoghbl1/moby_android) can be found on github.
 
-### Simulation
+### Simulator
 
 We run Moby simulations on CDR data.
 The CDR data is as follows.
