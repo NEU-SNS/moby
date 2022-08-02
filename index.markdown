@@ -9,16 +9,18 @@ Moby: A Blackout-resistant Anonymity Network for Mobile Devices [PETS 2022](http
 
 *Amogh Pradeep (Northeastern University), Hira Javaid (Northeastern University), Ryan Williams (Northeastern University), Antoine Rault (EPFL), David Choffnes (Northeastern University), Stevens Le Blond (EPFL), and Bryan Ford (EPFL)*
 
-**Abstract:** Internet blackouts are challenging environments for anonymity and censorship resistance.
-Existing popular anonymity networks (e.g., Freenet, I2P, Tor) rely on Internet connectivity to function, making them impracticable during such blackouts.
-In such a setting, mobile ad-hoc networks can provide connectivity, but prior communication protocols for ad-hoc networks are not designed for anonymity and attack resilience.
-We address this need by designing, implementing, and evaluating Moby, a blackout-resistant anonymity network for mobile devices.
-Moby provides end-to-end encryption, forward secrecy and sender-receiver anonymity.
-It features a bi-modal design of operation, using Internet connectivity when available and ad-hoc networks during blackouts.
-During periods of Internet connectivity, Moby functions as a regular messaging application and bootstraps information that is later used in the absence of Internet connectivity to achieve secure anonymous communications.
-Moby incorporates a model of trust based on users’ contact lists, and a trust establishment protocol that mitigates flooding attacks.
-We perform an empirically informed simulation-based study based on cellphone traces of 268,596 users over the span of a week for a large cellular provider to determine Moby’s feasibility and present our findings.
-Last, we implement and evaluate the Moby client as an Android app.
+---
+
+# Blackouts
+
+[Blackouts](https://netblocks.org/reports) occur frequently around the world, usually due to oppressive regimes that cause these blackouts in an effort to control their population.
+Communication is a basic human right ([UDHR](https://www.un.org/en/about-us/universal-declaration-of-human-rights), Article 19), and thus we need to work on tools that would help people in affected regions.
+
+# Moby
+
+Moby solves this using a bi-modal design, using the Internet to establish trust among users and prepare them for blackouts.
+
+![Bi-modal design](/assets/bimodal.png){:class="img-responsive"}
 
 ---
 
