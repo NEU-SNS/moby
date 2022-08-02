@@ -33,6 +33,14 @@ Moby: A Blackout-resistant Anonymity Network for Mobile Devices *PETS 2022*
 
 ---
 
+## Press
+
+[Interview](https://www.youtube.com/watch?v=PfAALvdnS-U) with [Kee Jefferys](https://twitter.com/jefferyskee) from [Oxen](https://oxen.io/)
+
+*PETS 2022 presentation video link available soon*
+
+---
+
 ## Moby Client
 
 The Moby Client is implemented as an Android app.
