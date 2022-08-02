@@ -3,14 +3,15 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+
 ---
 
-## Blackouts
+# Blackouts
 
 [Blackouts](https://netblocks.org/reports) occur frequently around the world, usually due to oppressive regimes that cause these blackouts in an effort to control their population.
 Communication is a basic human right ([UDHR](https://www.un.org/en/about-us/universal-declaration-of-human-rights), Article 19), and thus we need to work on tools that would help people in affected regions.
 
-## Moby
+# Moby
 
 Moby solves this using a bi-modal design, using the Internet to establish trust among users and prepare them for blackouts.
 
