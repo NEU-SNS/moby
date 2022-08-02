@@ -5,12 +5,6 @@
 layout: home
 ---
 
-Moby: A Blackout-resistant Anonymity Network for Mobile Devices [PETS 2022](https://petsymposium.org/2022/files/papers/issue3/popets-2022-0071.pdf)
-
-*Amogh Pradeep (Northeastern University), Hira Javaid (Northeastern University), Ryan Williams (Northeastern University), Antoine Rault (EPFL), David Choffnes (Northeastern University), Stevens Le Blond (EPFL), and Bryan Ford (EPFL)*
-
----
-
 # Blackouts
 
 [Blackouts](https://netblocks.org/reports) occur frequently around the world, usually due to oppressive regimes that cause these blackouts in an effort to control their population.
@@ -22,18 +16,29 @@ Moby solves this using a bi-modal design, using the Internet to establish trust 
 
 ![Bi-modal design](/assets/bimodal.png){:class="img-responsive"}
 
+During blackouts, users can rely on the Moby Ad-Hoc network to communicate with each other.
+Further details on how these modes work can be found in our paper.
+
 ---
 
-## Code
+## Paper
 
-### Client
+For more details please read our [PETS 2022 paper](https://petsymposium.org/2022/files/papers/issue3/popets-2022-0071.pdf).
+
+Moby: A Blackout-resistant Anonymity Network for Mobile Devices *PETS 2022*
+
+*Amogh Pradeep (Northeastern University), Hira Javaid (Northeastern University), Ryan Williams (Northeastern University), Antoine Rault (EPFL), David Choffnes (Northeastern University), Stevens Le Blond (EPFL), and Bryan Ford (EPFL)*
+
+---
+
+## Moby Client
 
 The Moby Client is implemented as an Android app.
 It is based on the Signal application and extends it to enable P2P communication using Wi-Fi direct and Bluetooth.
 
 Client [code](https://github.com/amoghbl1/moby_android) can be found on GitHub.
 
-### Simulator
+## Moby Simulator
 
 We run Moby simulations on call data records (CDR).
 The CDR data is as follows.
