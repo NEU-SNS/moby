@@ -14,7 +14,7 @@ Communication is a basic human right ([UDHR](https://www.un.org/en/about-us/univ
 
 # Moby
 
-Moby solves this using a bi-modal design, using the Internet to establish trust among users and prepare them for blackouts.
+Moby solves this using a bi-modal design: using the Internet to establish trust among users and prepare them for blackouts.
 
 ![Bi-modal design](/assets/bimodal.png){:class="img-responsive"}
 
